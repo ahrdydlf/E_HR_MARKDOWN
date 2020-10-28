@@ -26,19 +26,19 @@ E_HR_MARKDOWN
 -아이텝1  
 +아이템2  
  - 1단계 하위 아이템  
- *2단계 하위 아이템  
+ * 2단계 하위 아이템  
 
- 1.아이템1  
- 2.아이템2  
-    2.1아이템  
-     2.1.1 아이템  
-     
+ 1. 아이템1  
+ 2. 아이템2  
+   2.1 아이템  
+    2.1.1 아이템  
+
 #5. 코드블록  
---- Spring  
+``` Spring    
 public static void main(String args[]) {
     system.out.println("Hello,world");
 }
----  
+``` 
 
 #6. 가로선
 ---
@@ -46,14 +46,19 @@ public static void main(String args[]) {
 ---
 
 #7. 하이퍼링크  
----
+```
 [강사cafe] (링크URL "설명문구")
----
+```
 [강사cafe] (https://cafe.naver.com/kndjang "강사 카페")
 
 # 7.1. 강조
 **텍스트**
 __텍스트__
 # 7.2 이미지
-![강사cafe] ()
+![레이아웃] ()
+
+
+
+
+
      
